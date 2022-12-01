@@ -1,5 +1,5 @@
 import 'package:adventofcode2022/day.dart';
-import 'package:adventofcode2022/helper/stringExtension.dart';
+import 'package:adventofcode2022/helper/string_extensions.dart';
 import 'package:collection/collection.dart';
 
 class Day1 implements Day {
