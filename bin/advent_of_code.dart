@@ -16,9 +16,11 @@ import 'package:adventofcode2022/day12.dart';
 import 'package:adventofcode2022/day13.dart';
 import 'package:adventofcode2022/day14.dart';
 import 'package:adventofcode2022/day15.dart';
+import 'package:adventofcode2022/day18.dart';
 
 Future<void> main(List<String> arguments) async {
   final adventOfCode = AdventOfCode(arguments[0]);
+  await solveDay(Day18(), adventOfCode);
   await solveDay(Day15(), adventOfCode);
   await solveDay(Day14(), adventOfCode);
   await solveDay(Day13(), adventOfCode);
